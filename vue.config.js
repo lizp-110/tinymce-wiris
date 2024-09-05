@@ -10,9 +10,13 @@ module.exports = {
   },
   devServer: {
     proxy: {
-      "/prod-api": {
+      "/dev-api/": {
+        logLevel: "debug",
         changeOrigin: true,
-        target: "https://demo.wiris.com", // 需要请求的目标接口
+        target: "https://demo.wiris.com/", // 需要请求的目标接口
+        pathRewrite: {
+          "^/dev-api/": "",
+        },
       },
     },
   },
