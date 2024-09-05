@@ -1,0 +1,29 @@
+{
+    "name": "tinymce5",
+    "version": "8.8.3",
+    "description": "MathType API for TinyMCE5 editor",
+    "keywords": [
+        "chem",
+        "chemistry",
+        "chemtype",
+        "editor",
+        "equation",
+        "latex",
+        "math",
+        "maths",
+        "mathml",
+        "mathtype",
+        "tinymce",
+        "tinymce5",
+        "wiris"
+    ],
+    "homepage" : "http://www.wiris.com/",
+    "bugs" : {
+      "email" : "support@wiris.com"
+    },
+    "author" : "WIRIS Team (http://www.wiris.com)",
+    "license" : "GPL-3.0",
+    "dependencies": {
+        "tinymce": "^5"
+    }
+}
