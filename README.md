@@ -1,4 +1,4 @@
-# vue2-demo
+# tinymce-wiris
 
 ## Project setup
 ```
