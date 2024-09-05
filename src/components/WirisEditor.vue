@@ -79,7 +79,7 @@ export default {
       tinymce.init({
         mathTypeParameters: {
           serviceProviderProperties: {
-            URI: "/config/configurationjs",
+            URI: "/dev-api/integrations/tinymce/tinymce6/plugins/tiny_mce_wiris/integration",
             server: "php",
           },
         },
